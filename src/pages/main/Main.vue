@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="main-bg">
   <router-view />
 
   <van-tabbar route  v-model="active" active-color="#f00" inactive-color="#000">
@@ -30,5 +30,7 @@ export default {
 </script>
 
 <style scoped>
-
+.main-bg {
+  height: 100%;
+}
 </style>
